@@ -1,7 +1,7 @@
 # purple-sdk
 Counter-Strike: Global Offensive cheat base with standart functions and ImGui menu.
 
-#Functions
+# Functions
 Standart aimbot
 Enemy, team esp
 Glow
