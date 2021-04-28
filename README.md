@@ -4,9 +4,9 @@ Made from: https://github.com/etho300/imgui-csgo-sdk<br>
 SDK Creator: https://github.com/designer1337/csgo-cheat-base
 
 # Functions
-Standart aimbot
-Enemy, team esp
-Glow
+Standart aimbot<br>
+Enemy, team esp<br>
+Glow<br>
 Bunnyhop, air-duck, fake-duck, clantag
 
 # Menu
