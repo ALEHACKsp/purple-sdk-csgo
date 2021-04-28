@@ -9,7 +9,7 @@ void menu::tab(const char* label, ImVec2 size, int id)
 	ImGui::PushStyleVar(ImGuiStyleVar_FrameBorderSize, 0);
 	if (active_profile == id)
 	{
-		ImGui::PushStyleColor(ImGuiCol_Text, ImGuiCtx::rgba_to_imvec4(38, 188, 54, 255));
+		ImGui::PushStyleColor(ImGuiCol_Text, ImGuiCtx::rgba_to_imvec4(218, 66, 245, 255));
 		if (ImGui::Button(label, size))
 			active_profile = id;
 		ImGui::PopStyleColor();
@@ -22,7 +22,7 @@ void menu::tab(const char* label, ImVec2 size, int id)
 }
 
 void menu::render() {
-	ImVec4 menucol = ImGuiCtx::rgba_to_imvec4(38, 188, 54, 255);
+	ImVec4 menucol = ImGuiCtx::rgba_to_imvec4(218, 66, 245, 255);
 
 	setup_style();
 	ImGui::SetNextWindowSize(menu_size);
@@ -110,7 +110,7 @@ void menu::setup_style() {
 	
 	// Elements
 	style->Colors[ImGuiCol_Text] = ImGuiCtx::rgba_to_imvec4(177, 177, 177, 255);
-	style->Colors[ImGuiCol_CheckMark] = ImGuiCtx::rgba_to_imvec4(38, 188, 54, 255);
+	style->Colors[ImGuiCol_CheckMark] = ImGuiCtx::rgba_to_imvec4(218, 66, 245, 255);
 	style->Colors[ImGuiCol_Button] = ImGuiCtx::rgba_to_imvec4(31, 31, 31, 255);
 	style->Colors[ImGuiCol_ButtonHovered] = ImGuiCtx::rgba_to_imvec4(39, 39, 39, 255);
 	style->Colors[ImGuiCol_ButtonActive] = ImGuiCtx::rgba_to_imvec4(39, 39, 39, 255);
