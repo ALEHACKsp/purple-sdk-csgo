@@ -1,5 +1,7 @@
 # purple-sdk
 Counter-Strike: Global Offensive cheat base with standart functions and ImGui menu.
+Made from: https://github.com/etho300/imgui-csgo-sdk
+SDK Creator: https://github.com/designer1337/csgo-cheat-base
 
 # Functions
 Standart aimbot
