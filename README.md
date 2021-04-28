@@ -1,6 +1,6 @@
 # purple-sdk
-Counter-Strike: Global Offensive cheat base with standart functions and ImGui menu.
-Made from: https://github.com/etho300/imgui-csgo-sdk
+Counter-Strike: Global Offensive cheat base with standart functions and ImGui menu.<br>
+Made from: https://github.com/etho300/imgui-csgo-sdk<br>
 SDK Creator: https://github.com/designer1337/csgo-cheat-base
 
 # Functions
